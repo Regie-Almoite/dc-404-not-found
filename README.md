@@ -38,12 +38,8 @@
 
 ![screenshot](https://i.postimg.cc/cLZQXRsF/regie-almoite-github-io-dc-404-not-found.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 -   Where can I see your demo? https://regie-almoite.github.io/dc-404-not-found/
--   What was your experience? I liked making the website
--   What have you learned/improved?
--   Your wisdom? :)
+-   What was your experience? I did practice html and css from the challenge
 
 ### Built With
 
