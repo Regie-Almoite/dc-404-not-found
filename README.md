@@ -68,5 +68,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
--   GitHub [@Regie-Almoite](https://{github.com/Regie-Almoite})
--   LinkedIn [@regienald-almoite](https://www.linkedin.com/in/regienald-almoite/})
+-   GitHub [@Regie-Almoite](https://github.com/Regie-Almoite)
+-   LinkedIn [@regienald-almoite](https://www.linkedin.com/in/regienald-almoite/)
