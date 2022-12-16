@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap");
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+:root {
+    --font-inconsolata: "Inconsolata", monospace;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-space-mono: "Space Mono", monospace;
+    --color-dark: #333333;
+    --color-grey: #4f4f4f;
+    --color-white-grey: #bdbdbd;
+    --color-white: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 77px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-size: 24px;
+    font-family: var(--font-inconsolata);
+    color: var(--color-dark);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-space-mono);
+    gap: 120px;
+}
+
+.left img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: var(--color-dark);
+    margin-bottom: 36px;
+}
+
+.right-description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: var(--color-grey);
+    margin-bottom: 64px;
+}
+
+.backToHomepage-btn {
+    width: 216px;
+    height: 68px;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-white-grey);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 20px 24px;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .right-title {
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        margin-bottom: 30px;
+    }
+
+    .right-description {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        margin-bottom: 66px;
+    }
+}
